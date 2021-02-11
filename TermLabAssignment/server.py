@@ -6,16 +6,16 @@ import random
 import os
 
 #local address of computer
-HOST = '192.168.1.179'
+HOST = ''
 #random port
-PORT = 3333
+PORT = ''
 #create tuple for connect
 address = (HOST, PORT)
 
 #file to transfer to client(s)
 filename = ""
 
-peers = ['192.168.1.192']
+peers = ['']
 
 files = []
 
